@@ -493,8 +493,8 @@ body.dark-theme {
 
 .story__img {
   position: absolute;
-  left: 3rem;
-  top: -3rem;
+  left: 0rem;
+  top: -6rem;
 }
 
 /*=============== PRODUCTS ===============*/
@@ -621,8 +621,10 @@ body.dark-theme {
 
 .testimonial__img {
   position: absolute;
-  right: 2rem;
-  top: 3rem;
+  /* right: 2rem;
+  top: 3rem; */
+  right: 0rem;
+  top: -7rem;
 }
 
 .testimonial-swiper {
@@ -984,7 +986,7 @@ body.dark-theme {
   .story__img,
   .testimonial__square,
   .testimonial__img {
-    width: 180px;
+    width: 196px;
   }
 
   .story__square,
@@ -1191,13 +1193,15 @@ body.dark-theme {
     padding-top: 3rem;
   }
   .story__img {
-    left: 5rem;
-    top: -5rem;
+    left: 0rem;
+    top: -11rem;
   }
 
   .testimonial__img {
-    right: 5rem;
-    top: 5rem;
+    /* right: 5rem;
+    top: 5rem; */
+    right: 0rem;
+    top: -14rem;
   }
 
   .scrollup {
