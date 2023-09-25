@@ -2,10 +2,14 @@
 
 - Responsive Flowers Website Using HTML CSS & JavaScript
 - Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- A Dark and Light mode.
+- Variable CSS
+- Color Theme
 
-
+Future Update:
+- Login Page 
+- Add to Cart Button Functional with a backend(php/firebase)
+- Containerize the site (Docker)
+- It will be a Full Stack Website with ReactJS
 
 # FlorChia
