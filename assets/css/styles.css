@@ -863,7 +863,18 @@ body.dark-theme {
   padding: 3.5rem 2rem;
   transition: .4s;
 }
-
+/* addded   */
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+/* endd */
 .cart__title-center {
   font-size: var(--h2-font-size);
   text-align: center;
