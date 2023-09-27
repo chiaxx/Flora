@@ -54,14 +54,38 @@
                 <div class="nav__btns">
                     <!-- Theme change button -->
                     <i class='bx bx-moon change-theme' id="theme-button"></i>
+                    
+                    <!-- CART ICON  -->
 
                     <div class="nav__shop" id="cart-shop">
-                        <i class='bx bx-shopping-bag' ></i>
+                        <i class='bx bx-shopping-bag' id="cart-icon"></i>
                     </div>
 
                     <div class="nav__toggle" id="nav-toggle">
                         <i class='bx bx-grid-alt' ></i>
                     </div>
+
+                    <!-- CART  -->
+                    <div class="cart">
+                        <h2 class="cart-title">Your Cart</h2>
+        
+                        <!-- CONTENT  -->
+                        <div class="cart-content">
+        
+        
+                        </div>
+        
+                        <!-- TOTAL   -->
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">$0</div>
+                        </div>
+                        <!-- BUY BUTTON  -->
+                        <button type="button" class="btn-buy">Buy Now</button>
+                        <!-- CART CLOSE  -->
+                        <i class='bx bx-x' id="cart-close"></i>
+                    </div>
+                   </div>
                 </div>
             </nav>
         </header>
@@ -197,7 +221,7 @@
                         <span class="products__price">$15</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
 
@@ -208,7 +232,7 @@
                         <span class="products__price">$35</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
 
@@ -219,7 +243,7 @@
                         <span class="products__price">$38</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
 
@@ -230,7 +254,7 @@
                         <span class="products__price">$87</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
 
@@ -241,7 +265,7 @@
                         <span class="products__price">$65</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
 
@@ -252,7 +276,7 @@
                         <span class="products__price">$45</span>
 
                         <button class="products__button">
-                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-shopping-bag add-cart'></i>
                         </button>
                     </article>
                 </div>
@@ -523,5 +547,6 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/cart.js"></script>
     </body>
 </html>
