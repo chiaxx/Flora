@@ -1,3 +1,4 @@
+// ==== THE CART SHOWS UP ====
 document.addEventListener("DOMContentLoaded", () => {
     const cartIcon = document.querySelector("#cart-icon");
     const cart = document.querySelector(".cart");
