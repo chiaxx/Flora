@@ -1,6 +1,6 @@
 # Shop with Chia Flower Shop Website 🌸
 
-# FlorChia
+# Flora
 Current Features:
 - Seamless Responsiveness: Our elegantly designed flower shop website is meticulously built using HTML, CSS, and JavaScript, ensuring seamless functionality across all devices.
 - Enhanced User Experience: Immerse yourself in an exceptional browsing experience with smooth scrolling integrated seamlessly into each section of our website.
